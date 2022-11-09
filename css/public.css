@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff2') format('woff2'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  line-height: 35px;
+}
+h3 {
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333
+}
+.visib-hid {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  font-size: 0;
+}
+.w-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.w-1160 {
+  width: 1160px;
+  margin: 0 auto;
+}
+.w-1060 {
+  width: 1060px;
+  margin: 0 auto;
+}
+.w-920 {
+  width: 920px;
+  margin: 0 auto;
+}
+.w-614 {
+  width: 614px;
+  margin: 0 auto;
+}
+.w-1036 {
+  width: 1036px;
+  margin: 0 auto;
+}
+.fz28 {
+  font-size: 28px;
+  line-height: 28px;
+}
+.fz22 {
+  font-size: 22px;
+  line-height: 22px;
+}
+.fz16 {
+  font-size: 16px;
+  line-height: 16px;
+}
+.fz14 {
+  font-size: 14px;
+  line-height: 14px;
+}
+.c-fff {
+  color: #fff;
+}
+.c-666 {
+  color: #666;
+}
+.c-d2 {
+  color: #d2d2d2;
+}
+.c-da {
+  color: #dadada;
+}
+.c-333 {
+  color: #333;
+}
+.bgc-212f {
+  background-color: #22212f;
+}
+.bgc-f9 {
+  background-color: #f9f9fa;
+}
+.bgc-fb {
+  background-color: #fbfbfb;
+}
+.bgc-fc {
+  background-color: #fcfcfc;
+}
+.bgc-fff {
+  background-color: #fff;
+}
+.textind-2em {
+  text-indent: 2em;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.text-center {
+  text-align: center;
+}
+.psr {
+  position: relative;
+} 
+.psa {
+  position: absolute;
+}
+.ma-b-30 {
+  margin-bottom: 30px;
+}
+/* =====  #fff button  ===== */
+a.btn-white,
+a.btn-white:after {
+  color: #fff;
+  border-color: #fff;
+}
+/* =====  header start  ===== */
+.header {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.header-warp {
+  padding: 20px 0;
+  line-height: 35px;
+}
+.head-nav {
+  padding-right: 67px;
+}
+.head-nav>ul>li {
+  margin-right: 46px;
+}
+.head-nav>ul>li:nth-of-type(1) {
+  padding-right: 10px;
+}
+.head-nav li:nth-of-type(2) {
+  position: relative;
+}
+.head-nav li:nth-of-type(2) ul {
+  visibility: hidden;
+  position: absolute;
+  top: 61px;
+  left: -36px;
+  overflow: hidden;
+  text-align: center;
+  width: 124px;
+  max-height: 0;
+  line-height: 44px;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 4px;
+  transition: .3s linear;
+} 
+.head-nav li a {
+  color: #c8c8c8;
+  font-size: 16px;
+}
+.head-nav li:nth-of-type(2) ul li a:hover{
+  color: #ff7200;
+}
+.head-nav li a:hover {
+  color: #fff;
+}
+.head-nav li:nth-of-type(2):hover a:after {
+  color: #fff;
+  transform: rotate(180deg);
+}
+.head-nav li:nth-of-type(2):hover ul {
+  visibility: visible;
+  max-height: 500px;
+  transition: .3s linear;
+}
+/* =====  icon start  ===== */
+.head-nav>ul>li:nth-of-type(2)>a:after {
+  content: '\e6b9';
+  position: absolute;
+  top: 8px;
+  right: -32px;
+  padding: 0 8px;
+  line-height: 21px;
+  font-family: 'iconfont' !important;
+  color: #c1c1c1;
+  font-size: 16px;
+  transition: .3s;
+}
+.ban-btn:after {
+  content: '\e601';
+  position: absolute;
+  top: 0px;
+  right: 22px;
+  color: #ff7200;
+  font-family: 'iconfont' !important;
+  transition: transform .2s;
+}
+.ban-btn {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 38px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  color: #ff7200;
+  border: solid 1px #ff7200;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.ban-btn:hover:after {
+  transform: translateX(3px);
+}
+/* ======== footer satrt =========  */
+.foot-warp {
+  padding-bottom: 20px;
+}
+/* ===== foot-warp  border start */
+.foot-warp:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -110px;
+  width: 1442px;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .1), #4c4f5f, rgba(0, 0, 0, .1));
+}
+.foot-qr {
+  box-sizing: border-box;
+  margin-top: 55px;
+  padding: 0 84px 0 65px;
+}
+/* ===== left border ===== */
+.foot-qr:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 2px;
+  width: 1px;
+  height: 244px;
+  background-color: #4c4f5f;
+}
+/* ===== qr-tel  start ===== */
+.qr-tel {
+  line-height: 22px;
+  width: 198px;
+}
+.qr-img {
+  margin-left: 22px;
+}
+.qr-img img{
+  padding: 16px 0 15px 0;
+}
+.qr-img p{
+  line-height: 13px;
+  color: #cecece;
+  font-size: 12px;
+}
+/* =====  footer  record  start */
+.record {
+  line-height: 60px;
+  color: #7e8088;
+}
+.qr-tel div {
+  margin-top: 3px;
+}
+.qr-tel div p:first-of-type {
+  margin-bottom: 4px;
+}
+/* ===== footer  foot-contact  start */
+.foot-contact {
+  padding-top: 79px;
+  padding-left: 16px;
+  width: 804px;
+}
+.foot-contact dl {
+  margin: 0 64px;
+}
+.foot-contact dl dt {
+  margin-bottom: 38px;
+  line-height: 16px;
+  color: #fff;
+  font-size: 16px;
+}
+.foot-contact dl dd {
+  margin-bottom: 18px;
+  line-height: 14px;
+  color: #cecece;
+  font-size: 14px;
+  cursor: pointer;
+}
+.foot-contact dd a {
+  color: #cecece;
+}
+.foot-contact dd a:hover {
+  color: #fff;
+}

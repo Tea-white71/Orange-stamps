@@ -1,0 +1,60 @@
+/* ======= banner start ======= */
+.banner {
+  height: 350px;
+  background: #fff url(../img/case-banner.jpg) no-repeat center/cover;
+}
+/* ======= container start ======= */
+.container {
+  padding: 18px 0 48px;
+}
+.container li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 76px;
+  cursor: pointer;
+}
+.container li:not(:last-of-type) {
+  border-bottom: 1px solid #f4f4f4;
+}
+.container li>div {
+  width: 696px;
+  margin: 16px 0 0 76px;
+}
+.container li>div>div {
+  position: relative;
+}
+.container li h4 {
+  padding-left: 24px;
+  line-height: 52px;
+  font-size: 22px;
+  color: #333;
+  background-color: #f8f8f8;
+}
+.container li:hover h4 {
+  color: #ff7200;
+}
+.container li div p {
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+.container li div div p {
+  margin: 48px 0 4px 14px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.container li div div:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 3px;
+	height: 16px;
+  top: 3px;
+  left: 0;
+	background-color: #ff7200;
+}
+.container li div p {
+  line-height: 34px;
+}

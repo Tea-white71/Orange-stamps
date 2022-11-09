@@ -1,0 +1,15 @@
+/* ===== header nav start ====== */
+.header {
+  background-color: #fff;
+}
+.head-nav li a,
+.head-nav>ul>li:nth-of-type(2)>a:after {
+  color: #333;
+}
+.head-nav li a:hover,
+.head-nav li:nth-of-type(2):hover a:after {
+  color: #ff7200;
+}
+.head-nav li:nth-of-type(2) ul {
+  background-color: #fff;
+}

@@ -1,0 +1,92 @@
+/* ===== banner start =====*/
+.banner {
+  margin-top: 80px;
+  height: 250px;
+  width: 100%;
+  background: #fff url(../img/aboutUs-banner.png) no-repeat center/cover;
+}
+/* ======= container start ======= */
+.container .we {
+  padding: 82px 0 172px;
+}
+.we h3 {
+  margin-bottom: 62px;
+  text-align: center;
+}
+.reception-text {
+  box-sizing: border-box;
+  width: 719px;
+  top: 230px;
+  left: 481px;
+  padding: 48px 56px 56px;
+  background-color: #fff;
+	border-radius: 6px;
+}
+.subtitle h4 {
+  font-weight: 400;
+  color: #ff7200;
+  font-size: 24px;
+}
+.subtitle:after {
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+  width: 36px;
+  height: 3px;
+  background-color: #ff7200;
+}
+.reception-text p {
+  line-height: 30px;
+  text-align: justify;
+  font-size: 16px;
+  color: #666;
+}
+.reception-text img {
+  border-radius: 6px;
+}
+/* ======= honor start ======= */
+.honor {
+  padding: 104px 0 160px;
+}
+.honor h3 {
+  padding-bottom: 72px;
+  text-align: center;
+}
+.trophy li,
+.certificate li {
+  transition: 1s;
+}
+.trophy li:hover,
+.certificate li:hover {
+  transform: scale(1.1);
+}
+.trophy li p,
+.certificate li p {
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+/* ======= address start ======= */
+.address {
+  align-items: stretch;
+}
+.addr-site {
+  padding-top: 76px;
+  padding-right: 556px;
+}
+.addr-site h3 {
+  margin-bottom: 56px;
+}
+.addr-site ul li {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 40px;
+  width: 400px;
+  line-height: 25px;
+  font-size: 16px;
+  color: #666;
+}
+.addr-site li img {
+  margin-right: 28px;
+}

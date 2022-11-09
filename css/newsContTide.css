@@ -1,0 +1,62 @@
+/* ======= banner start ======= */
+.banner {
+  height: 200px;
+  background: #fff url(../img/news-banner.png) no-repeat center/cover;
+}
+/* ===== container start =====*/
+.Breadcrumbs {
+  padding: 60px 0 66px;
+}
+.Breadcrumbs p a:not(:last-of-type) {
+  color: #999;
+}
+.Breadcrumbs p a:last-of-type {
+  color: #333;
+}
+.Breadcrumbs p a:not(:last-of-type):hover {
+  color: #ff7200;
+}
+.news-title p{
+  margin: 24px 0 40px;
+  color: #666;
+}
+.news-title:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 109px;
+  left: 562px;
+  width: 35px;
+  height: 3px;
+  background-color: #ff7200;
+}
+.news-title:after {
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  width: 1160px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+/* ======== news start ========*/
+.news {
+  padding: 30px 0 60px;
+}
+.news p {
+  margin: 20px 0;
+  text-align: justify;
+  width: 776px;
+  line-height: 30px;
+  text-indent: 2em;
+}
+/* ======== formfeed start ========*/
+.formfeed {
+  margin-top: 60px;
+}
+.formfeed a {
+  color: #666;
+}
+.formfeed a:hover {
+  color: #ff7200;
+}
